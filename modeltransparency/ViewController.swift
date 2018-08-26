@@ -23,7 +23,7 @@ class ViewController: UIViewController {
             sceneView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
             ])
         
-        sceneView.scene = SCNScene(named: "hair.scnassets/collada.scn")
+        sceneView.scene = SCNScene(named: "hair.scnassets/collada.dae")
         sceneView.allowsCameraControl = true
         sceneView.autoenablesDefaultLighting = true
         sceneView.backgroundColor = .white
