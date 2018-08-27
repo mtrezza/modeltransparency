@@ -14,6 +14,7 @@
 		6B42F4BC213233310091A12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B42F4BA213233310091A12D /* LaunchScreen.storyboard */; };
 		6B8804302132DBA6000A9B76 /* hair.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B88042F2132DBA6000A9B76 /* hair.scnassets */; };
 		6B88044221331534000A9B76 /* hair2.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B88044121331534000A9B76 /* hair2.scnassets */; };
+		6B880445213429F6000A9B76 /* artefact.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B880444213429F6000A9B76 /* artefact.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6B42F4BD213233310091A12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B88042F2132DBA6000A9B76 /* hair.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = hair.scnassets; sourceTree = "<group>"; };
 		6B88044121331534000A9B76 /* hair2.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = hair2.scnassets; sourceTree = "<group>"; };
+		6B880444213429F6000A9B76 /* artefact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artefact.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		6B42F4B02132332F0091A12D /* modeltransparency */ = {
 			isa = PBXGroup;
 			children = (
+				6B880443213429E0000A9B76 /* issue */,
 				6B42F4B12132332F0091A12D /* AppDelegate.swift */,
 				6B42F4B32132332F0091A12D /* ViewController.swift */,
 				6B42F4B52132332F0091A12D /* Main.storyboard */,
@@ -68,6 +71,14 @@
 				6B42F4BD213233310091A12D /* Info.plist */,
 			);
 			path = modeltransparency;
+			sourceTree = "<group>";
+		};
+		6B880443213429E0000A9B76 /* issue */ = {
+			isa = PBXGroup;
+			children = (
+				6B880444213429F6000A9B76 /* artefact.png */,
+			);
+			path = issue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +142,7 @@
 				6B42F4B9213233310091A12D /* Assets.xcassets in Resources */,
 				6B42F4B72132332F0091A12D /* Main.storyboard in Resources */,
 				6B8804302132DBA6000A9B76 /* hair.scnassets in Resources */,
+				6B880445213429F6000A9B76 /* artefact.png in Resources */,
 				6B88044221331534000A9B76 /* hair2.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
